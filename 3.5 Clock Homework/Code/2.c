@@ -24,11 +24,17 @@ int second = 0;
 // Hour increment button
 interrupt [EXT_INT0] void myISR0() {
 	hour++;
+	if (hour == 24) {
+		hour = 0;
+	}
 }
 
 // Minute increment button
 interrupt [EXT_INT1] void myISR1() {
 	minute++;
+	if (minute == 60) {
+		minute = 0;
+	}
 }
 
 /**
