@@ -1,0 +1,24 @@
+/*
+ * code1.c
+ *
+ * Created: 10/22/2024 11:08:05 AM
+ * Author: m
+ */
+
+#include <io.h>
+#include <mega16.h>
+#include "delay.h"
+
+
+void main(void)
+{
+DDRA = 0xff;
+while (1)
+    {
+    PORTA0 = (1 << PORTA0);
+    delay.ms(500);
+                    
+    PORTA = ~(1 << PORTA0);  
+    delay.ms(500);
+    }
+}

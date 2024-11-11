@@ -1,0 +1,12 @@
+VERSION:3 SOURCE_TIMESTAMP:59655C2F
+NODE:I LEVEL:0 LINE:1 "D:\Apps\cvavr\inc\io.h"
+NODE:I LEVEL:0 LINE:2 "D:\Apps\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:3 "D:\Apps\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:9 "numbers -> RAM:????"
+NODE:V LEVEL:0 LINE:10 "currentNumber -> R5"
+NODE:V LEVEL:0 LINE:11 "isRunning -> R6,R7"
+NODE:F LEVEL:0 LINE:14 "myISR0(void)"
+NODE:F LEVEL:0 LINE:22 "myISR1(void)"
+NODE:F LEVEL:0 LINE:27 "myISR2(void)"
+NODE:F LEVEL:0 LINE:32 "showCurrentNumber(unsigned char number)"
+NODE:F LEVEL:0 LINE:45 "main(void)"
