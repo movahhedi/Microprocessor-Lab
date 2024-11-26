@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:596C5EE2
+NODE:I LEVEL:0 LINE:5 "D:\Apps\cvavr\inc\io.h"
+NODE:I LEVEL:0 LINE:6 "D:\Apps\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:7 "D:\Apps\cvavr\inc\alcd.h"
+NODE:I LEVEL:0 LINE:8 "D:\Apps\cvavr\inc\string.h"
+NODE:I LEVEL:0 LINE:9 "D:\Apps\cvavr\inc\delay.h"
+NODE:F LEVEL:0 LINE:11 "main(void)"
